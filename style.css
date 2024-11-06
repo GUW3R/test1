@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif; background-color: #f4f4f4;
+    height: 100vh; display: flex; justify-content: center;
+    align-items: flex-start;}
+.container {
+    width: 1200px; display: flex; flex-direction: column;}
+.header {
+    background-color: #282828; color: white;
+    padding: 20px; text-align: center;}
+.main-content {
+    display: flex; justify-content: space-between;
+    padding: 20px; background-color: white;}
+.video-player {
+    background-color: #000; height: 600px; margin-right: 20px;}
+.video-placeholder {
+    width: 100%; height: 100%;}
+.recommended-videos {
+    background-color: #f9f9f9; padding: 10px;
+    border-left: 1px solid #ccc;}
+.recommended-videos h3 {
+    margin-bottom: 15px;}
+.recommended-videos ul {
+    list-style: none;}
+.recommended-videos li {
+    margin-bottom: 10px;}
+.footer {
+    background-color: #282828;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
